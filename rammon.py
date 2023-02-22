@@ -8,7 +8,7 @@ threshold = 10
 used_percentage = psutil.virtual_memory().percent
 
 #alert api url
-url = "http://127.0.0.1:5000/alert"
+url = "http://127.0.0.1:8080/alert"
 
 #checking percent
 if used_percentage > threshold:
