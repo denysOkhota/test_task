@@ -1,4 +1,4 @@
-FROM python:3.12.0b1-slim
+FROM python:3.12.0rc2-slim
 
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
